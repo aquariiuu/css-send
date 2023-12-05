@@ -3,4 +3,12 @@ quick few lines of code made to make my life a teeny bit easier by using javascr
 ## how to use
 its pretty easy just go to css-send.js and copy paste the javascript into your file. its pretty simple just sends scroll data to css variables
 
-if you want to use units with the numbers just multiply in a calc function, so like if you want the scroll value to affect width in px of a div be like `width: calc(var(--scroll) * 1px);` and it works. err yeah might add like seven more values later onclick values but yeah
+### Current variables
+`scroll`: The current javascript `window.scrollY` value (there's no scrollX sorry unless you bug me about it)
+`scroll-percent`: A number between 0 and 100 of the current scroll percentage.
+
+`lastClickX`: The most recent click location in pixels relative to the window (or whatever math javascript does)
+`lastClickY`: Same thing as above but on the Y axis instead
+
+`lastMouseX`: Similar to `lastClickX`, except triggers on mouse movement and gets the current position of the mouse
+`lastMouseY`: Same thing as above but on the Y axis instead
