@@ -1,5 +1,5 @@
 # scrollsend
-quick few lines of code made to make my life a teeny bit easier by using javascript to send data to css variables. 
+quick few lines of code made to make my life a teeny bit easier by using javascript to send data to css variables. i don't intend to formalize this unless it like randomly blows up but have some helpful tips below. feedback always accepted
 ## how to use
 its pretty easy just go to css-send.js and copy paste the javascript into your file. its pretty simple just sends scroll data to css variables
 
