@@ -17,3 +17,9 @@ its pretty easy just go to css-send.js and copy paste the javascript into your f
 `lastMouseX`: Similar to `lastClickX`, except triggers on mouse movement and gets the current position of the mouse
 
 `lastMouseY`: Same thing as above but on the Y axis instead
+
+### Might be helpful to know...
+
+Since this only sends numbers without a unit, in css you can convert number to units by doing `calc(var(--var-name) * 1un)` where `un` is your desired unit
+
+(more to be added as and when needed)
