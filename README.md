@@ -20,7 +20,7 @@ its pretty easy just go to css-send.js and copy paste the javascript into your f
 
 ### Conditionals
 
-These are probably very janky and might slow down visible rendering so use at your own risk but so far they work pretty well in the small-scale contexts I have tried them in. To use a conditional css variable, create your variable (preferably in `:root` since thats where the JS will send the data anyway) using ternaries prefixed by `eval` to let the JS know its an equation. This is best described using an example, so below is an example of a div that changes background color based on scroll position. 
+These are probably very janky and might slow down visible rendering so use at your own risk but so far they work pretty well in the small-scale contexts I have tried them in. To use a conditional css variable, create your variable (preferably in `:root` since thats where the JS will send the data anyway) using ternaries prefixed by `eval` to let the JS know its an equation. This is best described using an example, so below is an example of a div that changes background color based on scroll position. For javascript variables, use the css variables but styled in a javscript way i guess? `scroll`, `lastClickX`, etc.  
 
 ```
 :root{
